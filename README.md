@@ -155,37 +155,82 @@ TabNet(
 ## 📊 Visual Analytics Suite
 Here’s the updated README with **all 21 images** integrated into the **Visual Analytics** section, retaining the technical depth while adding comprehensive image descriptions:
 
-### 1. Temporal Price Trend Analysis (2000-2023)  
+### 📈 1️⃣ **Temporal Price Trend Analysis (2000-2023)**  
 ![Trend Analysis](images/newplot%20(8).png)  
-*Multi-line chart showing price evolution segmented by RAM tiers (4GB/6GB/8GB), storage types (64GB/128GB/256GB), and camera resolutions.*
+📌 **What it shows:** Multi-line chart depicting the **evolution of mobile phone prices** segmented by:  
+✔️ **RAM Tiers**: 4GB, 6GB, 8GB  
+✔️ **Storage Types**: 64GB, 128GB, 256GB  
+✔️ **Camera Resolutions**: 12MP, 48MP, 108MP  
+💡 **Insight:** Identifies trends in **price spikes, market disruptions, and technology breakthroughs** over the past two decades.  
 
-### 2. Battery vs RAM vs Price Relationship  
+---
+
+### 🔋 2️⃣ **Battery vs RAM vs Price Relationship**  
 ![Battery Analysis](images/newplot%20(7).png)  
-*3D scatter plot with battery capacity (mAh) on X-axis, RAM (GB) on Y-axis, and price gradient (USD). Marker sizes represent storage capacity.*
+📌 **What it shows:** A **3D scatter plot** where:  
+✔️ **X-Axis**: Battery Capacity (mAh)  
+✔️ **Y-Axis**: RAM (GB)  
+✔️ **Color Gradient**: Price (USD)  
+✔️ **Marker Size**: Storage Capacity  
+💡 **Insight:** Highlights **battery-RAM-price trade-offs** and how flagship devices balance **performance with endurance**.  
 
-### 3. Feature Correlation Matrix  
+---
+
+### 🔥 3️⃣ **Feature Correlation Matrix**  
 ![Correlation Map](images/newplot%20(6).png)  
-*Heatmap revealing Pearson correlations between 15+ technical specs. Red = positive correlation, Blue = negative.*
+📌 **What it shows:** A **heatmap visualization** of Pearson correlation coefficients among **15+ technical specifications**.  
+✔️ **Red** = Strong Positive Correlation  
+✔️ **Blue** = Strong Negative Correlation  
+💡 **Insight:** Identifies relationships such as **"More RAM → Higher Price"** and **"Smaller Screen → Lower Battery Drain."**  
 
-### 4. Processor Speed Impact  
+---
+
+### ⚡ 4️⃣ **Processor Speed Impact on Pricing**  
 ![CPU Analysis](images/newplot%20(5).png)  
-*Density plot comparing Snapdragon/MediaTek/Exynos processor speeds against normalized price distributions.*
+📌 **What it shows:** **Density distribution of smartphone prices** across different processor types:  
+✔️ **Snapdragon**  
+✔️ **MediaTek**  
+✔️ **Exynos**  
+💡 **Insight:** Helps assess **how much CPU performance influences cost** across different brands.  
 
-### 5. Camera Resolution Pricing  
+---
+
+### 📸 5️⃣ **Camera Resolution vs Price Volatility**  
 ![Camera Impact](images/newplot%20(4).png)  
-*Box plots showing price volatility across 12MP/48MP/108MP camera tiers with outlier detection.*
+📌 **What it shows:** A **box plot** comparing price variations across **12MP, 48MP, and 108MP cameras**.  
+💡 **Insight:** Higher megapixel counts do not always justify higher prices—brand influence matters.  
 
-### 6. Brand Price Distribution  
+---
+
+### 🏷️ 6️⃣ **Brand-Wise Price Distribution**  
 ![Brand Analysis](images/newplot%20(3).png)  
-*Violin plots comparing Apple/Samsung/Xiaomi price spreads with median values and confidence intervals.*
+📌 **What it shows:** A **violin plot** displaying price ranges for:  
+✔️ **Apple**  
+✔️ **Samsung**  
+✔️ **Xiaomi**  
+💡 **Insight:** Demonstrates which brands maintain **premium vs budget-friendly positioning**.  
 
-### 7. Monthly Price Fluctuations  
+---
+
+### 📉 7️⃣ **Monthly Price Fluctuations & Market Trends**  
 ![Market Changes](images/newplot%20(2).png)  
-*Animated line chart tracking monthly price changes correlated with product launches and seasonal trends.*
+📌 **What it shows:** An **animated line chart** that:  
+✔️ Tracks **monthly price changes**  
+✔️ Correlates price shifts with **product launches & seasonal demand**  
+💡 **Insight:** Identifies cyclical pricing trends and best times to buy a smartphone.  
 
-### 8. RAM-Storage-Price Cube  
+---
+
+### 🧊 8️⃣ **RAM-Storage-Price Cube (3D Analysis)**  
 ![3D Analysis](images/newplot%20(1).png)  
-*Interactive 3D visualization mapping RAM (X), storage (Y), and price (Z) with brand-based color encoding.*
+📌 **What it shows:** A **3D interactive visualization** mapping:  
+✔️ **X-Axis**: RAM  
+✔️ **Y-Axis**: Storage  
+✔️ **Z-Axis**: Price  
+✔️ **Color**: Brand-Based Encoding  
+💡 **Insight:** Helps users **identify optimal configurations for price-to-performance ratios**.  
+
+---
 
 ### 9. SHAP Feature Importance  
 ![SHAP Analysis](images/newplot%20(9).png)  
@@ -239,34 +284,7 @@ Here’s the updated README with **all 21 images** integrated into the **Visual 
 ![Global Impact](images/newplot.png)  
 *Radial plot showing aggregated feature importance across all models (TechScore = 38%, Brand = 22%).*
 
-### 1. Temporal Trend Analysis
-![Trend Analysis](images/newplot%20(8).png)  
-*Identifies market phases:*
-- 2000-2010: Moore's Law dominance
-- 2010-2018: Camera/screen wars
-- 2018-present: AI chip/5G premiumization
 
-### 2. Specification Correlation Matrix
-![Correlation Map](images/newplot%20(6).png)  
-*Key insights:*
-- RAM-Storage correlation: 0.82
-- Negative correlation (-0.65) between device age and price
-- Camera MP shows diminishing returns beyond 48MP
-
-### 3. Brand Premium Analysis
-![Brand Analysis](images/newplot%20(3).png)  
-*Luxury tiers:*
-1. Apple (32% premium)
-2. Samsung (18% premium)
-3. Google (12% premium)
-
-### 4. SHAP Explainability
-![SHAP Analysis](images/newplot%20(9).png)  
-*Top drivers:*
-1. TechScore (38% impact)
-2. Months since release (22%)
-3. Brand factor (19%)
-4. CameraScore (12%)
 
 ---
 
