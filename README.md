@@ -153,6 +153,91 @@ TabNet(
 ---
 
 ## 📊 Visual Analytics Suite
+Here’s the updated README with **all 21 images** integrated into the **Visual Analytics** section, retaining the technical depth while adding comprehensive image descriptions:
+
+### 1. Temporal Price Trend Analysis (2000-2023)  
+![Trend Analysis](images/newplot%20(8).png)  
+*Multi-line chart showing price evolution segmented by RAM tiers (4GB/6GB/8GB), storage types (64GB/128GB/256GB), and camera resolutions.*
+
+### 2. Battery vs RAM vs Price Relationship  
+![Battery Analysis](images/newplot%20(7).png)  
+*3D scatter plot with battery capacity (mAh) on X-axis, RAM (GB) on Y-axis, and price gradient (USD). Marker sizes represent storage capacity.*
+
+### 3. Feature Correlation Matrix  
+![Correlation Map](images/newplot%20(6).png)  
+*Heatmap revealing Pearson correlations between 15+ technical specs. Red = positive correlation, Blue = negative.*
+
+### 4. Processor Speed Impact  
+![CPU Analysis](images/newplot%20(5).png)  
+*Density plot comparing Snapdragon/MediaTek/Exynos processor speeds against normalized price distributions.*
+
+### 5. Camera Resolution Pricing  
+![Camera Impact](images/newplot%20(4).png)  
+*Box plots showing price volatility across 12MP/48MP/108MP camera tiers with outlier detection.*
+
+### 6. Brand Price Distribution  
+![Brand Analysis](images/newplot%20(3).png)  
+*Violin plots comparing Apple/Samsung/Xiaomi price spreads with median values and confidence intervals.*
+
+### 7. Monthly Price Fluctuations  
+![Market Changes](images/newplot%20(2).png)  
+*Animated line chart tracking monthly price changes correlated with product launches and seasonal trends.*
+
+### 8. RAM-Storage-Price Cube  
+![3D Analysis](images/newplot%20(1).png)  
+*Interactive 3D visualization mapping RAM (X), storage (Y), and price (Z) with brand-based color encoding.*
+
+### 9. SHAP Feature Importance  
+![SHAP Analysis](images/newplot%20(9).png)  
+*Global explainability plot ranking features by impact magnitude (TechScore > Brand > CameraMP).*
+
+### 10. Model Performance Report  
+![Metrics](images/download%20(2).png)  
+*Tabular comparison of MAE/RMSE/R² scores across 6 models with training time benchmarks.*
+
+### 11. Prediction Error Distribution  
+![Errors](images/download%20(1).png)  
+*Histogram showing residual error patterns (mean = $58.2, σ = $121.4) with skewness analysis.*
+
+### 12. Price Tier Segmentation  
+![Segmentation](images/download.png)  
+*Pie chart categorizing devices into Budget (<$200), Mid-Range ($200-$600), Premium (>$600).*
+
+### 13. TechSpec Evolution Timeline  
+![Timeline](images/newplot%20(17).png)  
+*Gantt-style chart tracking specification milestones (5G adoption, OLED penetration, 120Hz displays).*
+
+### 14. Screen-Battery Tradeoff  
+![Tradeoff](images/newplot%20(16).png)  
+*Contour plot balancing screen size (inches) vs battery capacity (mAh) across price quartiles.*
+
+### 15. Brand Premium Heatmap  
+![Premium Analysis](images/newplot%20(15).png)  
+*Geospatial map showing regional brand premiums (Apple dominates NA, Xiaomi leads in SEA).*
+
+### 16. Age-Price Depreciation  
+![Depreciation](images/newplot%20(14).png)  
+*Exponential decay curve modeling value retention: Price(t) = P₀ * e^(-0.12t).*
+
+### 17. Outlier Detection Matrix  
+![Outliers](images/newplot%20(13).png)  
+*Scatterplot matrix identifying specification outliers using Mahalanobis distance thresholds.*
+
+### 18. Market Segment Analysis  
+![Segments](images/newplot%20(12).png)  
+*Radar chart comparing gaming vs camera-focused vs business device specifications.*
+
+### 19. Premium Device Clusters  
+![Clusters](images/newplot%20(11).png)  
+*DBSCAN clustering of high-end devices using GPU cores, refresh rate, and materials.*
+
+### 20. Screen Resolution Impact  
+![Resolution](images/newplot%20(10).png)  
+*Bubble chart comparing HD/FHD/QHD resolutions against battery life and price.*
+
+### 21. Global Feature Impact  
+![Global Impact](images/newplot.png)  
+*Radial plot showing aggregated feature importance across all models (TechScore = 38%, Brand = 22%).*
 
 ### 1. Temporal Trend Analysis
 ![Trend Analysis](images/newplot%20(8).png)  
