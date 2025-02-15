@@ -6,7 +6,7 @@
 
 ### 📈 Trend Analysis
 #### **Image 1: Long-Term Price Trends**  
-(images/newplot (8).png)  
+(images/newplot(8).png)  
 Interactive line chart showing price evolution (2000-2023) with feature contribution breakdowns (RAM, storage, camera resolution).
 
 #### **Image 10: Decadal Price Patterns**  
