@@ -1,6 +1,3 @@
-Here's a professional README with organized image descriptions (without embedded images):
-
-```markdown
 # Advanced Mobile Price Detection System
 
 ![Machine Learning Pipeline](https://img.shields.io/badge/Pipeline-Data_Collection→Preprocessing→Modeling→Visualization-blue)
