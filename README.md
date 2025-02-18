@@ -420,6 +420,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## Contributors
+- **Shreyas Khandale** https://github.com/sherurox
+- **Rohan Upendra Patil**  https://github.com/rohanpatil2
+
+---
+
 ## 🔮 Future Roadmap
 - Real-time price tracking integration
 - Federated learning for regional adaptation
